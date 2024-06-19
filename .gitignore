@@ -1,1 +1,21 @@
+# .gitignore
+
+# Ignore system files
 .DS_Store
+Thumbs.db
+
+# Ignore node modules
+node_modules/
+
+# Ignore Sass cache
+.sass-cache/
+
+# Ignore temp/cache files
+*.log
+*.cache
+*.tmp
+
+# Ignore IDE-specific files
+.idea/
+*.sublime*
+.vscode/

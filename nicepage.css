@@ -43637,7 +43637,6 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-text-1 {
   font-family: "EB Garamond";
   font-size: 1.875rem;
-  width: 191px;
   margin: 0 auto;
 }
 
@@ -43668,11 +43667,10 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-text-2 {
   font-family: "EB Garamond";
   font-size: 1.875rem;
-  margin: 0 21px;
+  margin: 0 auto;
 }
 
 .u-footer .u-text-3 {
-  width: 279px;
   margin: 22px auto 0;
 }
 
@@ -43699,11 +43697,11 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-text-4 {
   font-family: "EB Garamond";
   font-size: 1.875rem;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .u-footer .u-text-5 {
-  margin: 22px 10px 0;
+  margin: 22px auto 0;
 }
 
 .u-footer .u-btn-3 {
@@ -43763,23 +43761,8 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 209px;
   }
 
-  .u-footer .u-text-2 {
-    width: 253px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-footer .u-text-3 {
-    width: 253px;
-  }
-
   .u-footer .u-layout-cell-3 {
     min-height: 209px;
-  }
-
-  .u-footer .u-text-5 {
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .u-footer .u-image-1 {
@@ -43796,24 +43779,12 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 100px;
   }
 
-  .u-footer .u-text-1 {
-    width: 180px;
-  }
-
   .u-footer .u-social-icons-1 {
     min-width: 42px;
   }
 
   .u-footer .u-layout-cell-2 {
     min-height: 100px;
-  }
-
-  .u-footer .u-text-2 {
-    width: 180px;
-  }
-
-  .u-footer .u-text-3 {
-    width: 180px;
   }
 
   .u-footer .u-layout-cell-3 {
@@ -43843,15 +43814,6 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-right: 10px;
   }
 
-  .u-footer .u-text-2 {
-    width: 196px;
-  }
-
-  .u-footer .u-text-3 {
-    margin-left: 170px;
-    margin-right: 170px;
-  }
-
   .u-footer .u-container-layout-3 {
     padding-left: 10px;
     padding-right: 10px;
@@ -43875,13 +43837,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-2 {
-    width: 196px;
     font-size: 1.5rem;
-  }
-
-  .u-footer .u-text-3 {
-    margin-left: 70px;
-    margin-right: 70px;
   }
 
   .u-footer .u-text-4 {

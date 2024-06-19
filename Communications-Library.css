@@ -69,7 +69,7 @@
   width: 659px;
   min-height: 64px;
   --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
@@ -193,7 +193,7 @@
   width: 659px;
   min-height: 64px;
   --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
@@ -325,7 +325,7 @@
   width: 659px;
   min-height: 64px;
   --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
@@ -458,7 +458,7 @@
   width: 659px;
   min-height: 64px;
   --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
@@ -589,8 +589,9 @@
 .u-section-6 .u-group-elements-1 {
   width: 659px;
   min-height: 64px;
+  animation-timing-function: ease;
   --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
@@ -626,6 +627,10 @@
     height: auto;
     margin-left: 96px;
     margin-right: 96px;
+  }
+
+  .u-section-6 .u-group-elements-1 {
+    --animation-custom_in-translate_y: 300px;
   }
 }
 

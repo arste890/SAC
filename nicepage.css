@@ -43849,6 +43849,10 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .u-footer .u-image-1 {
+    margin-top: 51px;
+  }
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {

@@ -1,7 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/som-facilities.jpg");
-  background-size: 170%;
-  background-position: 53.72% 39.9%;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('images/som-facilities.jpg');
 }
 
 .u-section-1 .u-sheet-1 {
@@ -17,6 +15,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 688px;
   }

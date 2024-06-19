@@ -43611,7 +43611,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 @media (max-width: 575px) {
   .u-header .u-menu-1 {
-    margin-top: -72px;
+    margin-top: 20px;
   }
 }
  .u-footer {
@@ -43637,7 +43637,8 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-text-1 {
   font-family: "EB Garamond";
   font-size: 1.875rem;
-  margin: 0 69px 0 60px;
+  width: 191px;
+  margin: 0 auto;
 }
 
 .u-footer .u-social-icons-1 {
@@ -43666,9 +43667,8 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-text-2 {
   font-family: "EB Garamond";
-  width: 279px;
   font-size: 1.875rem;
-  margin: 0 auto;
+  margin: 0 21px;
 }
 
 .u-footer .u-text-3 {
@@ -43721,12 +43721,17 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-image-1 {
   width: 263px;
   height: 204px;
-  margin: 41px auto 31px;
+  margin: 41px auto 0;
 }
 
 .u-footer .u-logo-image-1 {
   width: 100%;
   height: 100%;
+}
+
+.u-footer .u-custom-html-1 {
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -43743,11 +43748,6 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 209px;
   }
 
-  .u-footer .u-text-1 {
-    margin-right: 36px;
-    margin-left: 27px;
-  }
-
   .u-footer .u-social-icons-1 {
     min-width: 68px;
     width: 74px;
@@ -43759,6 +43759,8 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-2 {
     width: 253px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-footer .u-text-3 {
@@ -43789,8 +43791,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-1 {
-    margin-right: 0;
-    margin-left: 0;
+    width: 180px;
   }
 
   .u-footer .u-social-icons-1 {

@@ -9,34 +9,32 @@
 .u-section-1 .u-text-1 {
   font-weight: 700;
   width: 423px;
-  margin: 60px 359px 19px;
+  margin: 40px auto 19px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
-    margin-right: 259px;
     margin-left: 258px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-text-1 {
-    margin-right: 149px;
     margin-left: 148px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
-    margin-right: 59px;
     margin-left: 58px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
-    margin-left: 0;
-    margin-right: 0;
+    width: auto;
+    margin-left: -42px;
+    margin-right: -42px;
   }
 } .u-section-2 {
   background-image: none;

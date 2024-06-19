@@ -508,7 +508,11 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path>
       </a>
     </div>
   </footer>
-
+  <script>window.onload = function () {
+      var height = document.body.scrollHeight;
+      window.parent.postMessage(["setIframeHeight", height], "*");
+    };
+  </script>
 </body>
 
 </html>

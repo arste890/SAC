@@ -43581,10 +43581,9 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-1 {
   font-weight: 700;
   font-family: "EB Garamond";
+  font-style: normal;
   font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: normal;
-  font-style: normal;
 }
 
 .u-header .u-nav-3 {
@@ -43596,6 +43595,10 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
     margin-top: -75px;
     margin-right: 0;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 }
 @media (max-width: 991px) {

@@ -9,13 +9,13 @@
 .u-section-1 .u-group-1 {
   min-height: 277px;
   width: 598px;
-  --animation-custom_in-translate_x: 300px;
+  height: auto;
+  --radius: 30px;
+  --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  height: auto;
-  --radius: 30px;
   margin: 360px auto 60px 0;
 }
 

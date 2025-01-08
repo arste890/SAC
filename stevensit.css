@@ -45315,7 +45315,7 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 16px;
   width: 74px;
   min-width: 42px;
-  margin: -69px 0 44px auto;
+  margin: -69px 0 48px auto;
 }
 .u-header .u-section-row-2 {
   background-image: none;
@@ -45481,6 +45481,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-btn-5 {
+  background-image: none;
+  text-decoration: underline !important;
+  padding: 0;
+}
+
+.u-footer .u-btn-6 {
   background-image: none;
   text-decoration: underline !important;
   padding: 0;

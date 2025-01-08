@@ -204,7 +204,8 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-2 .u-icon-2 {
@@ -339,11 +340,6 @@
 
   .u-section-2 .u-repeater-1 {
     min-height: 351px;
-  }
-
-  .u-section-2 .u-group-elements-2 {
-    margin-right: initial;
-    margin-left: initial;
   }
 }
 

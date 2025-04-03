@@ -228,47 +228,47 @@
       fill: #000
     }
 
-    .qEYyC4J5veWyiLaz9gNP:hover svg circle.iy0BC5jhx6jMyzcvrLwf,
-    .qEYyC4J5veWyiLaz9gNP:hover svg path.iy0BC5jhx6jMyzcvrLwf,
-    .qEYyC4J5veWyiLaz9gNP:focus svg circle.iy0BC5jhx6jMyzcvrLwf,
-    .qEYyC4J5veWyiLaz9gNP:focus svg path.iy0BC5jhx6jMyzcvrLwf,
-    .qEYyC4J5veWyiLaz9gNP:focus-within svg circle.iy0BC5jhx6jMyzcvrLwf,
-    .qEYyC4J5veWyiLaz9gNP:focus-within svg path.iy0BC5jhx6jMyzcvrLwf,
-    .qEYyC4J5veWyiLaz9gNP:active svg circle.iy0BC5jhx6jMyzcvrLwf,
-    .qEYyC4J5veWyiLaz9gNP:active svg path.iy0BC5jhx6jMyzcvrLwf {
-      fill: transparent;
-      stroke: #000
+    .qEYyC4J5veWyiLaz9gNP {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3px 18px;
+      font-family: "regular-clarivate", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      line-height: 1.5;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 1.5rem;
+      border: 1px solid #646363;
+      background-color: #fff;
+      color: #000;
+      transition: box-shadow ease-in-out .1s, background-color ease-in-out .1s;
+    }
+
+    .qEYyC4J5veWyiLaz9gNP:hover,
+    .qEYyC4J5veWyiLaz9gNP:focus,
+    .qEYyC4J5veWyiLaz9gNP:active {
+      background-color: #f7f7f7;
+      box-shadow: 0 0 0 1px #5e34be;
     }
 
     .qEYyC4J5veWyiLaz9gNP:disabled {
       cursor: not-allowed;
       opacity: .8;
       background-color: #fff;
-      box-shadow: 0 0 0 1px transparent
-    }
-
-    .qEYyC4J5veWyiLaz9gNP+button,
-    .qEYyC4J5veWyiLaz9gNP+.qEYyC4J5veWyiLaz9gNP {
-      margin-left: 5.58px
     }
 
     .htXPkXdMWWcmr0_dul7A {
       padding: 0;
       background-color: transparent;
       border: 0;
-      box-shadow: none;
-      color: #000
+      color: #000;
     }
 
     .htXPkXdMWWcmr0_dul7A:hover,
     .htXPkXdMWWcmr0_dul7A:focus,
-    .htXPkXdMWWcmr0_dul7A:focus-within,
     .htXPkXdMWWcmr0_dul7A:active {
-      background-color: transparent;
-      border: 0;
-      box-shadow: none;
-      color: #000;
-      text-decoration: underline
+      text-decoration: underline;
     }
 
     .htXPkXdMWWcmr0_dul7A:disabled {
@@ -3157,7 +3157,10 @@ style="font-family:Helvetica,Helvetica Neue,Arial,Verdana,sans-serif;font-size:1
                                                                   bgcolor="" class="v">
                                                                   <p
                                                                     style="text-align:left;margin-top:0px;margin-bottom:0px;">
-                                                                    You will be required to sign in with UNID@utah.edu to access forms. If you have any issues, please reach out to SAC@music.utah.edu</p>
+                                                                    <p style="text-align:left;margin-top:0px;margin-bottom:0px;">
+                                                                      You will be required to sign in with UNID@utah.edu to access forms. If you have any issues, please reach out to 
+                                                                      <a href="mailto:SAC@music.utah.edu" style="color:blue;text-decoration:underline;">SAC@music.utah.edu</a>
+                                                                    </p>
                                                                 </td>
                                                               </tr>
                                                             </tbody>
@@ -3343,7 +3346,7 @@ style="font-family:Helvetica,Helvetica Neue,Arial,Verdana,sans-serif;font-size:1
                                                                       <tr>
                                                                         <td style="text-align:center;"><a
                                                                             target="_blank"
-                                                                            href="https://music.utah.edu/students/sac/index.php"><img
+                                                                            href="https://arste890.github.io/SAC/"><img
                                                                               alt="" width="266" class="q" height="207"
                                                                               border="0"
                                                                               src="https://arste890.github.io/SAC/Resources/Student-Advisory-Committee-CMB-CTR-RGB.png"

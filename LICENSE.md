@@ -1,4 +1,4 @@
-## Copyright (c) 2025 StevensED LLC
+## Copyright (c) 2025 StevensIT | StevensED LLC
 
 All rights reserved.
 
@@ -15,10 +15,10 @@ Commercial purposes include but are not limited to:
 The Software is provided "as is," without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement.
 
 ### 3. No Liability
-In no event shall StevensED LLC, its officers, directors, employees, agents, or affiliates, be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from or in connection with the Software or the use of or other dealings in the Software.
+In no event shall StevensIT, its officers, directors, employees, agents, or affiliates, be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from or in connection with the Software or the use of or other dealings in the Software.
 
 ### 4. Attribution Required
-All copies or substantial portions of the Software must retain this License, the copyright notice, and the attribution to StevensED LLC.
+All copies or substantial portions of the Software must retain this License, the copyright notice, and the attribution to StevensIT.
 
 ### 5. No Relicensing or Derivative Licensing
 Users may not apply any additional terms, conditions, or licenses to the Software or derivative works that restrict the rights granted herein.

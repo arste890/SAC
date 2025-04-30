@@ -100,6 +100,6 @@ For commercial licensing, extended usage rights, or media inquiries, please cont
 **StevensIT**  
 A Division of StevensED LLC  
 Email: report@StevensED.org  
-Website: [IT.StevensED.org](https://IT.StevensED.org)  
+Website: [StevensIT.org](https://stevensed.org/stevensit)  
 
 ---

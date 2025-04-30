@@ -57,3 +57,14 @@ p {
     background-color: #BE0000;
     color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+        padding-top: 20px;
+    }
+}

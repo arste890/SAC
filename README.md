@@ -12,7 +12,7 @@
 
 ## Overview
 
-This repository contains original front-end assets (HTML and CSS) developed by **StevensIT**, a DBA of **StevensED LLC**.  
+This repository contains original front-end assets (HTML and CSS) developed by **StevensIT**, a division of **StevensED LLC**.  
 These materials are protected under the **StevensIT License v1.0**, and are intended solely for **non-commercial**, **educational**, **personal**, or **research-based** use.
 
 ## License

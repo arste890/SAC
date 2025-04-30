@@ -58,6 +58,28 @@ p {
     color: #ffffff;
 }
 
+.featured-link {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 20px;
+    background-color: #BE0000; /* Red background */
+    color: #ffffff; /* White text */
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #BE0000; /* Red outline */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, border;
+}
+
+.featured-link:hover {
+    background-color: #ffffff; /* White background */
+    color: #BE0000; /* Red text */
+    border: 1px solid #BE0000; /* Red outline */
+}
+
 @media screen and (max-width: 768px) {
     .container {
         display: flex;

@@ -25,7 +25,7 @@ Any permitted use must include proper attribution:
 
 > "Developed by StevensIT, a Division of StevensED LLC. Used under the StevensIT License v1.0."
 
-Please refer to the [LICENSE](./LICENSE) file for full terms and conditions.
+Please refer to the [LICENSE](./LICENSE.md) file for full terms and conditions.
 
 ## Contact
 

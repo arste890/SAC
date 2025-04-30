@@ -79,14 +79,3 @@ p {
     color: #BE0000; /* Red text */
     border: 1px solid #BE0000; /* Red outline */
 }
-
-@media screen and (max-width: 768px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        height: 100vh;
-        padding-top: 20px;
-    }
-}

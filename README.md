@@ -21,7 +21,7 @@ All contents of this repository are licensed under the **StevensIT License v1.0*
 Commercial use, sublicensing, redistribution, or modification for profit is **strictly prohibited** without prior written permission.  
 Any permitted use must include proper attribution:
 
-> "Developed by StevensIT."
+> "Developed by StevensIT, a Division of StevensED LLC. Used under the StevensIT License v1.0."
 
 Please refer to the [LICENSE](./LICENSE) file for full terms and conditions.
 
@@ -29,7 +29,7 @@ Please refer to the [LICENSE](./LICENSE) file for full terms and conditions.
 
 If referencing or incorporating any part of this project, you are required to include the following credit:
 
-> Developed by StevensIT.
+> "Developed by StevensIT, a Division of StevensED LLC. Used under the StevensIT License v1.0."
 
 ## Contact
 

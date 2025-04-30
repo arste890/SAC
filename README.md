@@ -33,7 +33,7 @@ To request commercial licensing or obtain written permission for broader use, pl
 
 **StevensIT**  
 Email: report@StevensED.org  
-Website: [IT.StevensED.org](https://IT.StevensED.org)
+Website: [IT.StevensED.org](https://StevensED.org/stevensit)
 
 ---
 

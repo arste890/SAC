@@ -8,7 +8,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/arste890/SAC?style=flat-square&labelColor=0A0A23)
 ![Repo Size](https://img.shields.io/github/repo-size/arste890/SAC?style=flat-square&labelColor=0A0A23)
 
-<a href="./LICENSE">
+<a href="./LICENSE.md">
   <img src="./StevensIT-Logo.png" alt="StevensIT Logo" width="120"/>
 </a>
 

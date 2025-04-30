@@ -15,7 +15,7 @@
 This repository contains original front-end assets (HTML and CSS) developed by **StevensIT**, a division of **StevensED LLC**.  
 These materials are protected under the **StevensIT License v1.0**, and are intended solely for **non-commercial**, **educational**, **personal**, or **research-based** use.
 
-## License
+## License & Attribution
 
 All contents of this repository are licensed under the **StevensIT License v1.0**.  
 Commercial use, sublicensing, redistribution, or modification for profit is **strictly prohibited** without prior written permission.  
@@ -24,12 +24,6 @@ Any permitted use must include proper attribution:
 > "Developed by StevensIT, a Division of StevensED LLC. Used under the StevensIT License v1.0."
 
 Please refer to the [LICENSE](./LICENSE) file for full terms and conditions.
-
-## Attribution
-
-If referencing or incorporating any part of this project, you are required to include the following credit:
-
-> "Developed by StevensIT, a Division of StevensED LLC. Used under the StevensIT License v1.0."
 
 ## Contact
 

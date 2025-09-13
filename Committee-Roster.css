@@ -134,8 +134,10 @@
 .u-section-1 .u-image-2 {
   width: 180px;
   height: 180px;
-  background-image: url("images/fulllogo_transparent_nobuffer.png?rand=9786");
-  background-position: 50% 50%;
+  /* Alec's portrait */
+  background-image: url("images/alec_stevens.jpg");
+  /* Nudge focal point upward to avoid cutting top of head */
+  background-position: 50% 15%;
   margin: 0 auto;
 }
 

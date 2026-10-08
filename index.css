@@ -137,7 +137,7 @@
 }
 
 .u-section-2 .u-list-item-1 {
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
 }
 
@@ -189,7 +189,7 @@
 }
 
 .u-section-2 .u-list-item-2 {
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
 }
 
@@ -237,7 +237,7 @@
 }
 
 .u-section-2 .u-list-item-3 {
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
 }
 
@@ -285,7 +285,7 @@
 }
 
 .u-section-2 .u-list-item-4 {
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
 }
 
@@ -403,13 +403,13 @@
 }
 
 .u-section-2 .u-list-item-1.u-list-item-1.u-list-item-1:hover {
-  transform: translateX(0px) translateY(-5px) !important;
-  box-shadow: 0px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
 }
 
 .u-section-2 .u-list-item-1.u-list-item-1.u-list-item-1.hover {
-  transform: translateX(0px) translateY(-5px) !important;
-  box-shadow: 0px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
 }
 
 .u-section-2 .u-list-item-2,
@@ -419,13 +419,13 @@
 }
 
 .u-section-2 .u-list-item-2.u-list-item-2.u-list-item-2:hover {
-  transform: translateX(0px) translateY(-5px) !important;
-  box-shadow: 0px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
 }
 
 .u-section-2 .u-list-item-2.u-list-item-2.u-list-item-2.hover {
-  transform: translateX(0px) translateY(-5px) !important;
-  box-shadow: 0px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
 }
 
 .u-section-2 .u-list-item-3,
@@ -435,13 +435,13 @@
 }
 
 .u-section-2 .u-list-item-3.u-list-item-3.u-list-item-3:hover {
-  transform: translateX(0px) translateY(-5px) !important;
-  box-shadow: 0px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
 }
 
 .u-section-2 .u-list-item-3.u-list-item-3.u-list-item-3.hover {
-  transform: translateX(0px) translateY(-5px) !important;
-  box-shadow: 0px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
 }
 
 .u-section-2 .u-list-item-4,
@@ -451,13 +451,13 @@
 }
 
 .u-section-2 .u-list-item-4.u-list-item-4.u-list-item-4:hover {
-  transform: translateX(0px) translateY(-5px) !important;
-  box-shadow: 0px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
 }
 
 .u-section-2 .u-list-item-4.u-list-item-4.u-list-item-4.hover {
-  transform: translateX(0px) translateY(-5px) !important;
-  box-shadow: 0px 2px 8px 0px rgba(128,128,128,1) !important;
+  transform: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
 } .u-section-3 {
   background-image: none;
 }

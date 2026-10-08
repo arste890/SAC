@@ -1,0 +1,667 @@
+/*
+ * University of Utah Digital Theme alignment
+ * Mirrors the UMC Digital Theme 3 (https://digital.utah.edu/digital-theme/)
+ * header, footer, typography and color tokens. Loaded after page CSS.
+ *
+ * The theme's licensed Adobe fonts (Industry, Myriad Pro) are listed first
+ * so they are used where installed; Barlow and Source Sans 3 are the open
+ * fallbacks served from Google Fonts.
+ */
+
+:root {
+  --uu-red: #be0000;
+  --uu-dark-red: #91172c;
+  --uu-heading: #372c2c;
+  --uu-text: #47494a;
+  --uu-light-bg: #f7f9fb;
+  --uu-border: #e6ecf2;
+  --uu-footer-text: #9d9595;
+  --uu-footer-top: #000000;
+  --uu-footer-bottom: #282828;
+  --uu-font-heading: "Industry", "Barlow", "Helvetica Neue", Arial, sans-serif;
+  --uu-font-body: "myriad-pro", "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  --uu-card-shadow: 0 10px 20px 0 rgba(84, 117, 145, 0.1);
+  --uu-card-shadow-hover: 0 20px 30px 0 rgba(84, 117, 145, 0.2);
+}
+
+/* ---------- Typography ---------- */
+
+body.u-body {
+  font-family: var(--uu-font-body);
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--uu-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+.u-body p,
+.u-body li,
+.u-body .u-text:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6),
+.u-body .u-btn {
+  font-family: var(--uu-font-body) !important;
+}
+
+.u-body h1,
+.u-body h2,
+.u-body h3,
+.u-body h4,
+.u-body h5,
+.u-body h6 {
+  font-family: var(--uu-font-heading) !important;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.u-body h1,
+.u-body h2,
+.u-body h3,
+.u-body h4 {
+  color: var(--uu-heading);
+}
+
+/* Nicepage font utility classes would otherwise force Sen/Garamond */
+.u-body .u-custom-font.u-text-font,
+.u-body .u-custom-font[class*="u-font-"] {
+  font-family: var(--uu-font-body) !important;
+}
+
+.u-body .u-custom-font.u-heading-font {
+  font-family: var(--uu-font-heading) !important;
+}
+
+.u-body a:focus-visible,
+.u-body button:focus-visible {
+  outline: 3px dotted var(--uu-red);
+  outline-offset: 2px;
+}
+
+/* Cards: theme shadow instead of borders/lifts */
+.u-body .u-hover-feature.u-list-item {
+  box-shadow: var(--uu-card-shadow);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.u-body .u-hover-feature.u-list-item:hover {
+  box-shadow: var(--uu-card-shadow-hover) !important;
+}
+
+/* ---------- Skip link ---------- */
+
+.uu-skip-link {
+  position: absolute;
+  left: 10px;
+  top: -100px;
+  z-index: 1000;
+  padding: 10px 16px;
+  background: var(--uu-red);
+  color: #fff;
+  font-family: var(--uu-font-body);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.uu-skip-link:focus {
+  top: 10px;
+}
+
+.uu-visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ---------- Header (theme "black" variant) ---------- */
+
+.uu-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.uu-bottom-header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  min-height: 74px;
+  background-color: #000;
+  color: #fff;
+}
+
+.uu-header-logo {
+  flex: 0 0 auto;
+  display: block;
+  margin: 0 20px;
+  line-height: 0;
+}
+
+.uu-header-logo img {
+  display: block;
+  height: 46px;
+  width: auto;
+}
+
+.uu-header-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  border-left: 1px solid #463c3c;
+  padding-left: 25px;
+}
+
+.uu-header-title a {
+  display: table;
+  color: #fff;
+  text-decoration: none;
+}
+
+.uu-header-title a:hover {
+  opacity: 0.8;
+}
+
+.uu-header-title a:focus-visible {
+  outline: 3px dotted #fff;
+  outline-offset: 2px;
+}
+
+.uu-header-title .uu-site-name {
+  display: block;
+  font-family: var(--uu-font-heading);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.uu-header-title .uu-site-sub {
+  display: block;
+  margin-top: 4px;
+  font-family: var(--uu-font-body);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #a09898;
+}
+
+.uu-header-nav {
+  flex: 0 1 auto;
+  align-self: stretch;
+}
+
+.uu-header-nav > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: stretch;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.uu-header-nav li {
+  position: relative;
+  margin: 0;
+}
+
+.uu-header-nav > ul > li > a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 30px 15px;
+  font-family: var(--uu-font-heading);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.uu-header-nav > ul > li > a:hover,
+.uu-header-nav > ul > li > a:focus-visible,
+.uu-header-nav > ul > li:focus-within > a,
+.uu-header-nav > ul > li.has-children:hover > a {
+  background-color: var(--uu-red);
+  outline: none;
+}
+
+.uu-header-nav > ul > li > a[aria-current="page"] {
+  box-shadow: inset 0 -4px 0 var(--uu-red);
+}
+
+.uu-header-nav .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 240px;
+  margin: 0;
+  padding: 15px 20px;
+  list-style: none;
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 10px 20px 0 rgba(84, 117, 145, 0.2);
+  z-index: 10;
+}
+
+.uu-header-nav li.has-children:hover > .sub-menu,
+.uu-header-nav li.has-children:focus-within > .sub-menu {
+  display: block;
+}
+
+.uu-header-nav .sub-menu a {
+  display: block;
+  padding: 8px 0;
+  font-family: var(--uu-font-body);
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+.uu-header-nav .sub-menu a:hover,
+.uu-header-nav .sub-menu a:focus-visible {
+  color: var(--uu-red);
+  text-decoration: underline;
+}
+
+.uu-nav-toggle {
+  display: none;
+  flex: 0 0 auto;
+  align-self: stretch;
+  width: 64px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.uu-nav-toggle:hover,
+.uu-nav-toggle:focus-visible {
+  background-color: var(--uu-red);
+  outline: none;
+}
+
+.uu-hamburger,
+.uu-hamburger::before,
+.uu-hamburger::after {
+  display: block;
+  width: 24px;
+  height: 2px;
+  margin: 0 auto;
+  background: currentColor;
+  content: "";
+}
+
+.uu-hamburger {
+  position: relative;
+}
+
+.uu-hamburger::before {
+  position: absolute;
+  top: -7px;
+}
+
+.uu-hamburger::after {
+  position: absolute;
+  top: 7px;
+}
+
+@media (max-width: 1099px) {
+  .uu-nav-toggle {
+    display: block;
+  }
+
+  .uu-header-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #000;
+    border-top: 1px solid #463c3c;
+  }
+
+  .uu-header.nav-open .uu-header-nav {
+    display: block;
+  }
+
+  .uu-header-nav > ul {
+    flex-direction: column;
+  }
+
+  .uu-header-nav > ul > li > a {
+    padding: 16px 20px;
+  }
+
+  .uu-header-nav .sub-menu {
+    display: block;
+    position: static;
+    min-width: 0;
+    padding: 0 0 8px 20px;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .uu-header-nav .sub-menu a {
+    color: #d5d5d5;
+  }
+
+  .uu-header-nav .sub-menu a:hover,
+  .uu-header-nav .sub-menu a:focus-visible {
+    color: #fff;
+  }
+}
+
+@media (max-width: 767px) {
+  .uu-header-logo {
+    margin: 0 12px;
+  }
+
+  .uu-header-logo img {
+    height: 34px;
+  }
+
+  .uu-header-title {
+    padding-left: 12px;
+  }
+
+  .uu-header-title .uu-site-name {
+    font-size: 15px;
+  }
+
+  .uu-header-title .uu-site-sub {
+    font-size: 11px;
+  }
+}
+
+/* ---------- Footer ---------- */
+
+.uu-footer {
+  font-family: var(--uu-font-body);
+  color: var(--uu-footer-text);
+}
+
+.uu-footer a {
+  color: var(--uu-footer-text);
+  font-size: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.uu-footer a:hover,
+.uu-footer a:focus-visible {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.uu-footer a:focus-visible {
+  outline: 3px dotted #fff;
+  outline-offset: 2px;
+}
+
+.uu-top-footer {
+  background-color: var(--uu-footer-top);
+  padding: 15px;
+  font-size: 14px;
+}
+
+.uu-top-footer-container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.uu-footer-menu {
+  flex: 1 1 25%;
+}
+
+.uu-footer-menu:last-child {
+  text-align: right;
+}
+
+.uu-footer-menu-title {
+  margin: 30px 0 0;
+  color: #fff;
+  font-family: var(--uu-font-heading);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.uu-footer-menu hr {
+  width: 40px;
+  height: 2px;
+  margin: 10px 0 15px;
+  border: 0;
+  background: var(--uu-red);
+}
+
+.uu-footer-menu:last-child hr {
+  margin-left: auto;
+}
+
+.uu-footer-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.uu-footer-menu li {
+  margin: 0 0 6px;
+}
+
+.uu-footer-dept {
+  flex: 1 1 50%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.uu-footer-dept-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  line-height: 0;
+}
+
+.uu-footer-dept-logo img {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+}
+
+.uu-footer-dept-name {
+  margin: 12px 0 4px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #d5d5d5;
+}
+
+.uu-footer-dept p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: #d5d5d5;
+}
+
+.uu-bottom-footer {
+  background-color: var(--uu-footer-bottom);
+}
+
+.uu-bottom-footer-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 2%;
+}
+
+.uu-footer-logo {
+  flex: 1 1 25%;
+}
+
+.uu-footer-logo a {
+  display: inline-block;
+  line-height: 0;
+}
+
+.uu-footer-logo img {
+  height: 38px;
+  width: auto;
+}
+
+.uu-footer-links {
+  flex: 1 1 50%;
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.uu-footer-links p {
+  margin: 0 0 4px;
+}
+
+.uu-footer-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.uu-footer-links li {
+  display: inline-block;
+}
+
+.uu-footer-links li + li::before {
+  content: "/";
+  margin: 0 6px;
+}
+
+.uu-footer-social {
+  flex: 1 1 25%;
+  text-align: right;
+}
+
+.uu-footer-social ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.uu-footer-social li {
+  display: inline-block;
+  margin: 0 0 0 16px;
+}
+
+.uu-footer-social a {
+  display: inline-block;
+  color: #fff;
+  line-height: 0;
+}
+
+.uu-footer-social a:hover,
+.uu-footer-social a:focus-visible {
+  color: var(--uu-red);
+}
+
+.uu-footer-social svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+@media (max-width: 991px) {
+  .uu-top-footer-container,
+  .uu-bottom-footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .uu-footer-menu,
+  .uu-footer-menu:last-child {
+    text-align: center;
+  }
+
+  .uu-footer-menu hr,
+  .uu-footer-menu:last-child hr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .uu-footer-dept {
+    order: -1;
+  }
+
+  .uu-footer-logo,
+  .uu-footer-social {
+    text-align: center;
+  }
+
+  .uu-footer-social li {
+    margin: 0 8px;
+  }
+}
+
+/* Smooth in-page anchor scrolling (reduced-motion rule in stevensit.css turns it off) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Keep in-page anchor targets clear of the sticky header */
+.u-body section[id],
+#main {
+  scroll-margin-top: 80px;
+}
+
+/* Pin footer type sizes against Nicepage's global p/li sizing */
+.uu-top-footer li,
+.uu-top-footer p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.uu-footer-links p,
+.uu-footer-links li {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* Theme primary button (a.uu-btn), large size */
+.u-body a.uu-btn,
+.u-body a.uu-btn:visited {
+  display: inline-block;
+  background-color: var(--uu-red) !important;
+  color: #fff !important;
+  border: 0 !important;
+  border-radius: 4px !important;
+  padding: 12px 28px !important;
+  font-family: var(--uu-font-body) !important;
+  font-size: 16px !important;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: none;
+  transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.u-body a.uu-btn:hover,
+.u-body a.uu-btn:focus-visible {
+  background-color: var(--uu-dark-red) !important;
+  box-shadow: 0 10px 10px 0 rgba(84, 117, 145, 0.2);
+}

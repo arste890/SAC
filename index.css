@@ -8,7 +8,7 @@
 
 .u-section-1 .u-group-1 {
   min-height: 277px;
-  width: 598px;
+  width: 720px;
   height: auto;
   --radius: 30px;
   --animation-custom_in-translate_x: 0px;
@@ -803,5 +803,36 @@
   .u-section-4 .u-container-layout-6 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+/* SAC seal beside the hero heading */
+.u-section-1 .sac-hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.u-section-1 .sac-hero-seal {
+  flex: 0 0 auto;
+  width: 140px;
+  height: 140px;
+}
+
+.u-section-1 .sac-hero-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .sac-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .u-section-1 .sac-hero-seal {
+    width: 96px;
+    height: 96px;
   }
 }

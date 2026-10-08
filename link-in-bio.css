@@ -5,9 +5,10 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
@@ -78,4 +79,17 @@ p {
     background-color: #ffffff; /* White background */
     color: #BE0000; /* Red text */
     border: 1px solid #BE0000; /* Red outline */
+}
+
+.legal {
+    max-width: 400px;
+    width: 90%;
+    margin: 16px 0;
+    font-size: 13px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.legal a {
+    color: #BE0000;
 }
